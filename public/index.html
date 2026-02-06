@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI Loan Assistant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="header">
+  <h1>🏦 Smart Loan Assistant</h1>
+  <p>Your personal AI helping you choose the right loan 💬</p>
+</div>
+
+<div class="features">
+  <div>⚡ Instant Eligibility Check</div>
+  <div>💰 EMI Calculator</div>
+  <div>📄 Loan Guidance</div>
+  <div>📞 Apply Simulation</div>
+</div>
+
+<div class="chatbox">
+  <div id="messages"></div>
+
+  <div class="quickBtns">
+    <button onclick="quick('start')">Start Loan Check</button>
+    <button onclick="quick('emi')">EMI Calculator</button>
+    <button onclick="quick('faq')">FAQs</button>
+    <button onclick="downloadChat()">Download Chat</button>
+  </div>
+
+  <div class="inputArea">
+    <input id="userInput" placeholder="Ask anything about loans...">
+    <button onclick="sendMessage()">Send</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
